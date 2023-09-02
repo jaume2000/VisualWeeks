@@ -1,4 +1,39 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
+h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.week {
+  width: 8px;
+  height: 8px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: rgba(100,200,100);
+}
+
+.lived {
+  background-color: black;
+}
+
+.year {
+  background-color: red;
+  border: 1px black solid;
+}
+
+.week_container {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(100, 1fr);
+  height: 90%;
+  width: 100%;
+}
